@@ -4,7 +4,11 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [city, setCity] = useState();
+  const handleCity = (e) => {
+    setCity(e.target.value)
+    console.log(city)
+  }
 
   return (
     <>
@@ -12,7 +16,7 @@ function App() {
         <h1>Open Weather App</h1>
         <h2>Weather in your city</h2>
         <div>
-          <input type="text" name="city" placeholder="Enter your city" />
+          <input type="text" name="city" placeholder="Enter your city" onChange={handleCity}/>
           <button className="btn">Submit</button>
         </div>
 
