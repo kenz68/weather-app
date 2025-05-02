@@ -15,6 +15,29 @@ function App() {
           <input type="text" name="city" placeholder="Enter your city" />
           <button className="btn">Submit</button>
         </div>
+
+        <div>
+          <h3>Weather Details</h3>
+          <div className='flex'>
+            <h4>FaCity</h4>
+            <p>City Name</p>
+          </div>
+
+          <div className='flex'>
+            <h4>FaTemparatureFull</h4>
+            <p>Temparature</p>
+          </div>
+
+          <div className='flex'>
+            <h4>WiHumidity</h4>
+            <p>Humidity</p>
+          </div>
+
+          <div className='flex'>
+            <h4>GiWhirlwind</h4>
+            <p>Wind Speed</p>
+          </div>
+        </div>
       </div>
 
     </>

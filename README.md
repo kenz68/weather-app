@@ -13,8 +13,17 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ## README
 
+### Build & Run
 ```
-    cd weather-app
-    npm install
-    npm run dev
+cd weather-app
+npm install
+npm run dev
+```
+
+### Install third party dependencies
+
+```
+npm install axios
+npm install react-icons
+npm install dotenv
 ```

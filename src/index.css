@@ -1,5 +1,5 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -53,6 +53,26 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+
+input{
+  height: 2.5em;
+  width: 300px;
+  border-radius: 20px;
+  border:none;
+  outline: none;
+  padding: 5px 10px;
+  margin : 10px;
+  
+}
+
+
+.flex {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+}
+
 
 @media (prefers-color-scheme: light) {
   :root {
